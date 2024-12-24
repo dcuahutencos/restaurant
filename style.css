@@ -1,0 +1,108 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008000; /* Italian Flag Green */
+    padding: 10px 20px;
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #d40000; /* Italian Flag Red */
+    margin-bottom: 10px;
+}
+
+/* Menu Courses */
+.course {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f8f8f8;
+    border: 2px solid #008000; /* Green Border */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.course ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course li {
+    margin: 15px 0;
+}
+
+.course li strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.course li p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #d40000; /* Italian Flag Red */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
